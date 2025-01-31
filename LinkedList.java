@@ -59,7 +59,7 @@ public void deleteEnd()
             prev = temp;
             temp = temp.next;
         }
-        System.out.println("Deleted Element is: 3");
+        System.out.println("Deleted Element is:3");
         prev.next = null;
         tail = prev;
     }
