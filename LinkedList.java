@@ -48,8 +48,8 @@ public void deleteEnd()
 {
     if (head == null) {
         System.out.println("List is Empty");
-    } else if (head.next == null) {
-        System.out.println("Deleted Element: " + head.data);
+    } else if (head.next == null)
+     {
         head = null;
         tail = null;
     } else {
@@ -58,8 +58,8 @@ public void deleteEnd()
         while (temp.next != null) {
             prev = temp;
             temp = temp.next;
-        }
-        System.out.println("Deleted Element is:3");
+            }
+            System.out.println("Deleted Element is:" + temp.data);
         prev.next = null;
         tail = prev;
     }
